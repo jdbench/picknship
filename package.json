@@ -57,5 +57,5 @@
   "trustedDependencies": [
     "@shopify/plugin-cloudflare"
   ],
-  "author": "justi"
+  "author": "jdbench"
 }
