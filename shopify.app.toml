@@ -3,7 +3,7 @@
 client_id = "57178fcb1e94391886a11867069b2469"
 name = "PicknShip"
 handle = "picknship"
-application_url = "https://presenting-pharmacology-cal-featured.trycloudflare.com"
+application_url = "https://builder-mailto-peace-expressions.trycloudflare.com"
 embedded = true
 
 [build]
@@ -13,13 +13,13 @@ include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_assigned_fulfillment_orders,write_products,read_products,read_checkouts,read_inventory,read_locations,read_orders,read_shipping,read_returns"
+scopes = "read_assigned_fulfillment_orders,read_checkouts,read_inventory,read_locations,read_orders,read_products,read_returns,read_shipping,write_products"
 
 [auth]
 redirect_urls = [
-  "https://presenting-pharmacology-cal-featured.trycloudflare.com/auth/callback",
-  "https://presenting-pharmacology-cal-featured.trycloudflare.com/auth/shopify/callback",
-  "https://presenting-pharmacology-cal-featured.trycloudflare.com/api/auth/callback"
+  "https://builder-mailto-peace-expressions.trycloudflare.com/auth/callback",
+  "https://builder-mailto-peace-expressions.trycloudflare.com/auth/shopify/callback",
+  "https://builder-mailto-peace-expressions.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
